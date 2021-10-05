@@ -1,0 +1,28 @@
+{
+  "name": "tcc",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Tina Wang",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=DEV electron .",
+    "build": "nuxt build && electron-builder"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.7"
+  },
+  "devDependencies": {
+    "core-js": "^3.16.1",
+    "vue": "^2.6.14",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "electron": "^13.1.9",
+    "electron-builder": "^22.11.7",
+    "electron-devtools-installer": "^3.2.0",
+    "eslint": "^7.32.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^7.16.0"
+  }
+}

@@ -1,7 +1,6 @@
 <template>
 	<section class="container">
 		<div>
-			<img width="256" src="~/assets/img/logo.png">
 			<h1>{{name}}</h1>
 			<h2>{{description}}</h2>
 			<a href="https://nuxtjs.org/" target="_blank" class="btn btn-primary">Documentation</a>
